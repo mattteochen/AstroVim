@@ -28,7 +28,7 @@ local config = {
     map("v", "<leader>a", "0", opts)
     map("i", "<C-a>", "<Esc>I", opts)
     map("i", "<C-l>", "<Esc>A", opts)
-    map("i", "<C-x>", "<Esc>", opts)
+    map("i", "<C-q>", "<Esc>", opts)
   end,
 }
 
