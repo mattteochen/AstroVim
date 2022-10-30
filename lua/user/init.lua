@@ -22,8 +22,8 @@ local config = {
     -- Set key bindings
     map("n", "<leader>fs", "<cmd>Telescope string_greps<CR>", opts)
     map("n", "<leader>ne", "<cmd>NERDTree <CR>", opts)
-    map("n", "<C-l>", "$", opts) 
-    map("n", "<C-a>", "0", opts)
+    map("n", "<leader>k", "$", opts) 
+    map("n", "<leader>a", "0", opts)
     map("v", "<leader>k", "$", opts)
     map("v", "<leader>a", "0", opts)
     map("i", "<C-a>", "<Esc>I", opts)
